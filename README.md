@@ -6,6 +6,7 @@
 ![Go](https://img.shields.io/badge/Go-1.22-00ADD8?logo=go)
 ![Flutter](https://img.shields.io/badge/Flutter-3.22-02569B?logo=flutter)
 ![License](https://img.shields.io/badge/License-MIT-green)
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/1a2c4ab8-1c5f-420e-85f1-5987db205565" />
 
 ---
 
