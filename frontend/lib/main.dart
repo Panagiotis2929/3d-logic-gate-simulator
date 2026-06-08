@@ -122,7 +122,7 @@ class LogicGateApp extends StatelessWidget {
           ),
         ),
       ),
-      cardTheme: const CardTheme(
+      cardTheme: const CardThemeData(
         color: AppColors.surface,
         elevation: 0,
         shape: RoundedRectangleBorder(

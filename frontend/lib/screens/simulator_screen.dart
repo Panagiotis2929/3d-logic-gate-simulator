@@ -6,7 +6,7 @@ import '../models/simulation_state.dart';
 import '../services/websocket_service.dart';
 import '../widgets/gate_palette.dart';
 import '../widgets/scene_viewport.dart';
-import '../widgets/status_bar.dart';
+//import '../widgets/status_bar.dart';
 import '../widgets/wire_panel.dart';
 
 /// The primary simulator screen.

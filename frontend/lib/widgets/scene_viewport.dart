@@ -202,9 +202,9 @@ class _ScenePainter extends CustomPainter {
     final xPaint = Paint()..color = AppColors.accentRed.withOpacity(0.6) ..strokeWidth = 1.5;
     final zPaint = Paint()..color = AppColors.accentGreen.withOpacity(0.6) ..strokeWidth = 1.5;
     final yPaint = Paint()..color = AppColors.accent.withOpacity(0.6) ..strokeWidth = 1.5;
-    canvas.drawLine(project(Vec3.zero, size), project(Vec3(3, 0, 0), size), xPaint);
-    canvas.drawLine(project(Vec3.zero, size), project(Vec3(0, 0, 3), size), zPaint);
-    canvas.drawLine(project(Vec3.zero, size), project(Vec3(0, 3, 0), size), yPaint);
+canvas.drawLine(project(const Vec3(0, 0, 0), size), project(const Vec3(3, 0, 0), size), xPaint);
+canvas.drawLine(project(const Vec3(0, 0, 0), size), project(const Vec3(0, 0, 3), size), zPaint);
+canvas.drawLine(project(const Vec3(0, 0, 0), size), project(const Vec3(0, 3, 0), size), yPaint);
   }
 
   void _drawWires(Canvas canvas, Size size) {

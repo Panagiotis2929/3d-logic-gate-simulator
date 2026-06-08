@@ -52,9 +52,10 @@ class WebSocketService {
 
   // ── Lifecycle ──────────────────────────────
 
-  void connect() {
+void connect() {
     _setStatus(ConnectionStatus.connecting);
     try {
+      // Διόρθωση εδώ: Χρησιμοποίησε απευθείας τη μεταβλητή _wsUrl
       _channel = WebSocketChannel.connect(Uri.parse(_wsUrl));
       _setStatus(ConnectionStatus.connected);
       _channel!.stream.listen(
