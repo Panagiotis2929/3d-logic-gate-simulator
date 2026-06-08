@@ -95,12 +95,6 @@ go run ./cmd/server
 PORT=9000 go run ./cmd/server
 ```
 
-Επαλήθευση:
-```bash
-curl http://localhost:8080/health
-# → {"status":"ok","service":"3d-logic-gate-simulator"}
-```
-
 ### 2. Frontend (Flutter)
 
 Σε νέο terminal:
