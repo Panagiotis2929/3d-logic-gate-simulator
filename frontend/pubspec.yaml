@@ -1,0 +1,53 @@
+name: logic_gate_simulator
+description: 3D Logic Gate Physics Simulator – Educational tool for high-school students.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 3D rendering
+  flutter_cube: ^0.1.3          # lightweight OBJ/mesh 3D renderer
+  three_dart: ^0.0.16           # Three.js–style 3D engine for Flutter
+
+  # State management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # WebSocket
+  web_socket_channel: ^2.4.5
+
+  # Utilities
+  uuid: ^4.4.0
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  collection: ^1.18.0
+
+  # UI polish
+  google_fonts: ^6.2.1
+  animated_text_kit: ^4.2.2
+  fl_chart: ^0.68.0            # sparkline for signal history
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.11
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.4.3
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: SpaceMono
+      fonts:
+        - asset: assets/fonts/SpaceMono-Regular.ttf
+        - asset: assets/fonts/SpaceMono-Bold.ttf
+          weight: 700

@@ -1,0 +1,27 @@
+# ── Go ────────────────────────────────────────
+backend/vendor/
+backend/*.exe
+backend/*.test
+backend/coverage.out
+backend/server
+
+# ── Flutter ───────────────────────────────────
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+frontend/pubspec.lock
+
+# ── IDE ───────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ── Docker ────────────────────────────────────
+*.env
+.env.local
+
+# ── Go module cache ───────────────────────────
+go/
