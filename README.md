@@ -1,7 +1,7 @@
 # 3D Logic Gate Simulator
 
-> Εκπαιδευτικό εργαλείο για μαθητές Λυκείου — Πληροφορική & Ψηφιακά Κυκλώματα (ΑΤΕΛΕΣ)
-
+> Εκπαιδευτικό εργαλείο για μαθητές Λυκείου — Πληροφορική & Ψηφιακά Κυκλώματα
+(Δεν λειτουργούν τα κουμπιά του παιχνιδιού)
 <img width="1919" height="1020" alt="Στιγμιότυπο οθόνης 2026-06-08 045612" src="https://github.com/user-attachments/assets/77f63bea-51c1-4db6-a315-87f851ac1b9b" />
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/1a2c4ab8-1c5f-420e-85f1-5987db205565" />
 
