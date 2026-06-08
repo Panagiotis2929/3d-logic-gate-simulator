@@ -150,8 +150,9 @@ flutter run -d android
 
 ---
 
-## Άδεια
+## Author
 
-MIT License — ελεύθερη χρήση για εκπαιδευτικούς σκοπούς.
+**KYRANAS RALLIS-PANAGIOTIS**
 
----
+GitHub: https://github.com/Panagiotis2929
+
